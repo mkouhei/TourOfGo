@@ -7,6 +7,6 @@ import (
 )
 
 func main() {
-	fmt.Println("Now you have %g problems.",
+	fmt.Printf("Now you have %g problems.",
 		math.Nextafter(2, 3))
 }
