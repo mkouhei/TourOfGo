@@ -1,7 +1,9 @@
 //http://go-tour-jp.appspot.com/#36
 //http://code.google.com/p/go-tour/source/browse/pic/pic.go
 //wget http://go-tour.googlecode.com/archive/72382f964b32d8c3863aa4e4a5852b58a771e22e.zip
-//unzip 72382f964b32d8c3863aa4e4a5852b58a771e22e.zip
+//mkdir src; cd src
+//unzip ../72382f964b32d8c3863aa4e4a5852b58a771e22e.zip
+//cd $(git rev-parse --show-toplevel)
 //export GOPATH=$(pwd)
 //go build tour36.go
 //base64 -d <(./tour36 | sed 's/^IMAGE://') > tour64.png
