@@ -6,7 +6,7 @@
 //cd $(git rev-parse --show-toplevel)
 //export GOPATH=$(pwd)
 //go build tour36.go
-//base64 -d <(./tour36 | sed 's/^IMAGE://') > tour64.png
+//base64 -d <(./tour36 | sed 's/^IMAGE://') > tour36.png
 
 package main
 
@@ -18,9 +18,9 @@ func Pic(dx, dy int) [][]uint8 {
 	for i := 0; i < len(p); i++ {
 		p[i] = make([]uint8, dx)
 		for j := 0; j < len(p[i]); j++ {
-			//p[i][j] = uint8((i + j) / 2)
+			p[i][j] = uint8((i + j) / 2)
 			//p[i][j] = uint8(i * j)
-			p[i][j] = uint8(i ^ j)
+			//p[i][j] = uint8(i ^ j)
 		}
 	}
 	return p
