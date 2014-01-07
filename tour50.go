@@ -1,4 +1,4 @@
-//http://go-tour-jp.appspot.com/#49
+//http://go-tour-jp.appspot.com/#50
 
 package main
 
